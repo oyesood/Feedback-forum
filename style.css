@@ -1,0 +1,59 @@
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #14213D;
+    color: #FCA311;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FCA311;
+    color:#14213D;
+    transition: all 0.5s ease-in;
+    transform: scale(2em);
+}
+
+.container {
+    
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    background-color: none;
+    padding: 0 12px;
+    margin-left: 5.2em;
+    margin-top: 1.5em;
+    color: #FCA311;
+}
+body{
+    background-image: url("https://res.cloudinary.com/dylant25/image/upload/v1563056818/stars.jpg");
+}
+label{
+    font-weight: bold;
+    font-size:x-large;
+}
